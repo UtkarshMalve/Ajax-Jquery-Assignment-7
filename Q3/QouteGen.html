@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <!-- //<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+       div {
+        text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Quote Generator</h1>
+        <!-- Corrected the id and added values for options -->
+        <select id="categoryInput">
+            <option value="life">Life</option>
+            <option value="love">Love</option>
+            <option value="wisdom">Wisdom</option>
+            <option value="inspirational">Inspirational</option>
+            <option value="happiness">Happiness</option>
+        </select>
+        <button>Click</button>
+
+        <p id="quoteWrite"></p>  <!-- Corrected the ID for the paragraph -->
+    </div>
+
+    <!-- Include jQuery -->
+    
+    <script src="QuoteGen.js"></script> <!-- Your external JavaScript file -->
+</body>
+</html>

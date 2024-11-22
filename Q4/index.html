@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Price Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Cryptocurrency Price Tracker</h1>
+    </header>
+    <main class="tracker-container">
+        <div class="search-area">
+            <input type="text" id="search" placeholder="Enter Cryptocurrency Name">
+            <button id="fetch-data">Search</button>
+            <button id="refresh">Reset</button>
+        </div>
+        <div class="crypto-info">
+            <img src="" alt="Crypto Image" id="img">
+            <h3 id="name"></h3>
+            <p id="price"></p>
+            <p id="market-rank"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
